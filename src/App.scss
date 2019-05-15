@@ -1,0 +1,43 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  color: black;
+  background-color: red;
+  width: 75%;
+}
+
+.calculator{
+  background-color: blue;
+  width: 75%;
+}
+
+.chronometer{
+  background-color: green;
+  width: 75%;
+}
+
+.menu{
+  padding-top: 5vh;
+  padding-left: 5vw;
+  background-color: black;
+  color: white;
+  height: 95vh;
+  width: 20%;
+
+  a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: red;
+    }
+  }
+  
+  h1{
+    margin: 0;
+  }
+}
