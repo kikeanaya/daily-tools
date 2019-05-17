@@ -3,41 +3,167 @@
   padding: 0;
   display: flex;
   flex-direction: row;
-}
-
-.main{
-  color: black;
-  background-color: red;
-  width: 75%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .calculator{
-  background-color: blue;
-  width: 75%;
+  background-color: rgb(255, 255, 145);
+  width: 80%;
 }
 
 .chronometer{
-  background-color: green;
-  width: 75%;
+  background-color: #FFAD59;
+  width: 80%;
+}
+
+.about{
+  background-color: rgb(255, 89, 139);
+  width: 80%;
 }
 
 .menu{
-  padding-top: 5vh;
-  padding-left: 5vw;
   background-color: black;
   color: white;
-  height: 95vh;
+  height: 100vh;
   width: 20%;
 
   a{
+    text-decoration: none;    
+  }
+
+  h3{
+    background-color: #51E8AB;
+    margin: 0;
     text-decoration: none;
     color: white;
+    transition-duration: 0.5s;
+    padding: 10px;
     &:hover{
-      color: red;
+      color: black;
+
+      background-color: rgb(2, 108, 65);
     }
   }
-  
-  h1{
-    margin: 0;
+}
+
+.keypad{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  width: 55vw;
+  height: 50vh;
+
+  button{
+    width: 20%;
+    height: 25%;
+    font-size: 26px;
+    margin: 5px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #FFAD59;
+    color: white;
+    border: 0;
+  }
+
+  button:hover{
+    background-color: rgb(249, 133, 17);
+  }
+
+  button:focus{
+    outline: none;
+  }
+
+  .big{
+    width: 41.5%;
+  }
+
+  .equals{
+    height: 50%;
   }
 }
+
+.screen{
+  margin-left: 155px;
+  margin-bottom: 10px;
+  height: 15%;
+  width: 46vw;
+  background-color: #725DE8;
+  font-size: 40px;
+  text-align: right;
+  border-radius: 5px;
+
+
+  p{
+    padding-right: 15px;
+    padding-top: 25px;
+    color: white;
+  }
+}
+
+.chrono-container{
+  background-color: lightblue;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 100px;
+  width: 40vw;
+  border-radius: 100px;
+  border: 5px solid lightslategray;
+  text-align: center;
+
+  .chrono-numbers{
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Orbitron';
+
+  }
+
+  .chrono-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .start-button{
+    background-image: url(./Images/start.svg);
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.3s;
+  }
+
+  .stop-button{
+    background-image: url(./Images/pause.svg);
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.3s;
+  }
+
+  .reset-button{
+    background-image: url(./Images/reset.svg);
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.3s;
+  }
+  button:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+
+  button:focus{
+    outline: none;
+  }
+}
+
