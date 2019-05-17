@@ -39,6 +39,33 @@ class Calculator extends Component {
         }
     }
 
+    keyHandler = (event) => {
+        if(event.key === "1" || event.key === "2" || event.key === "3" || event.key === "4" || event.key === "5" || event.key === "6" || event.key === "7" || event.key === "8" || event.key === "9" || event.key === "0" || event.key === '.' || event.key === '+' || event.key === '-' || event.key === '*' || event.key === '/'){
+        this.setState({
+            screen: this.state.screen + event.key
+        })
+        }
+        else if(event.key === 'Backspace'){
+            this.setState({
+                screen: this.state.screen.slice(0, -1)
+            })
+        }
+        else if(event.key === 'Enter'){
+            this.setState({
+                screen: math.eval(this.state.screen)
+            })
+        }
+        
+      }
+
+    componentDidMount (){
+        document.addEventListener("keydown", this.keyHandler, false);
+      }
+    
+      componentWillUnmount(){
+        document.removeEventListener("keydown", this.keyHandler, false);
+    }
+
     render() {
         return (
         <div className="calculator">
