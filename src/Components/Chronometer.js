@@ -69,8 +69,8 @@ import React, { Component } from 'react';
         <div className="chrono-container">
           <p className="chrono-numbers">{this.addZero(minutes)}:{this.addZero(seconds)}:{this.addZero(hundredths)}</p>
           <div className="chrono-buttons">
-            <button className="start-button" onClick={this.start}></button>
             <button className="stop-button" onClick={this.stop}></button>
+            <button className="start-button" onClick={this.start}></button>
             <button className="reset-button" onClick={this.reset}></button>
           </div>
         </div>

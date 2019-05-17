@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Menu/>
       <Switch>
-        <Route exact path='/' render={() => <About/>}/>
-        <Route exact path='/calculator' render={() => <Calculator/>}/>
-        <Route exact path='/chronometer' render={() => <Chronometer/>}/>
+        <Route exact path='/daily-tools/' render={() => <About/>}/>
+        <Route exact path='/daily-tools/calculator' render={() => <Calculator/>}/>
+        <Route exact path='/daily-tools/chronometer' render={() => <Chronometer/>}/>
       </Switch>
     </div>
   );
