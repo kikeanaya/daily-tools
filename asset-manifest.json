@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/daily-tools/static/css/main.a380d31f.chunk.css",
-    "main.js": "/daily-tools/static/js/main.52794437.chunk.js",
-    "main.js.map": "/daily-tools/static/js/main.52794437.chunk.js.map",
+    "main.css": "/daily-tools/static/css/main.74460407.chunk.css",
+    "main.js": "/daily-tools/static/js/main.470401e3.chunk.js",
+    "main.js.map": "/daily-tools/static/js/main.470401e3.chunk.js.map",
     "runtime~main.js": "/daily-tools/static/js/runtime~main.60d1acc1.js",
     "runtime~main.js.map": "/daily-tools/static/js/runtime~main.60d1acc1.js.map",
-    "static/js/2.dcf4da4b.chunk.js": "/daily-tools/static/js/2.dcf4da4b.chunk.js",
-    "static/js/2.dcf4da4b.chunk.js.map": "/daily-tools/static/js/2.dcf4da4b.chunk.js.map",
+    "static/js/2.9c227008.chunk.js": "/daily-tools/static/js/2.9c227008.chunk.js",
+    "static/js/2.9c227008.chunk.js.map": "/daily-tools/static/js/2.9c227008.chunk.js.map",
     "index.html": "/daily-tools/index.html",
-    "precache-manifest.d3486f9c484edd3553c8c3e0109c9367.js": "/daily-tools/precache-manifest.d3486f9c484edd3553c8c3e0109c9367.js",
+    "precache-manifest.1cbc88e10148b89e8be4ca21533ca423.js": "/daily-tools/precache-manifest.1cbc88e10148b89e8be4ca21533ca423.js",
     "service-worker.js": "/daily-tools/service-worker.js",
-    "static/css/main.a380d31f.chunk.css.map": "/daily-tools/static/css/main.a380d31f.chunk.css.map",
-    "static/media/App.scss": "/daily-tools/static/media/start.b26658f3.svg"
+    "static/css/main.74460407.chunk.css.map": "/daily-tools/static/css/main.74460407.chunk.css.map",
+    "static/media/github.png": "/daily-tools/static/media/github.02b7b030.png",
+    "static/media/linkedin.png": "/daily-tools/static/media/linkedin.6c224c0c.png",
+    "static/media/logo.svg": "/daily-tools/static/media/logo.da0fad09.svg",
+    "static/media/App.scss": "/daily-tools/static/media/start.95a7a68a.svg",
+    "static/media/react.png": "/daily-tools/static/media/react.4bb2abd7.png",
+    "static/media/sass.png": "/daily-tools/static/media/sass.67dc61c3.png"
   }
 }
