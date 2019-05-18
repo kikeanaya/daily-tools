@@ -300,11 +300,12 @@
   .menu{
     background-color: #20201f;
     color: #f2eeeb;
-    height: 70px;
+    height: 50px;
     width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -322,18 +323,37 @@
   
     h3{
       margin: 0;
+      padding: 0;
       text-decoration: none;
       color: #a1a1a0;
-      padding: 5px;
       background: none;
-      font-size: 12px;
-      padding-top: 12px;
+      font-size: 0px;
+      width: 35px;
+      height: 35px;
+      margin-top: 6px;
+      background-image: url('./Images/reset.svg');
+      background-size: cover;
     }
 
     h3:hover{
       color:#a1a1a0;
     }
+
+    .about-logo{
+      background-image: url('./Images/about.svg');
+    }
+
+    .chronometer-logo{
+      background-image: url('./Images/chronometer.svg');
+    }
+
+    .calculator-logo{
+      background-image: url('./Images/calculator.svg');
+    }
     
+    .calendar-logo{
+      background-image: url('./Images/calendar.svg');
+    }
   }
 
   .calculator{
