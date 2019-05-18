@@ -1,23 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bc5255bb89fa670f64dec51e7e17c8e",
+    "revision": "88cc8f3da01bd1954632a68a43b23065",
     "url": "/daily-tools/index.html"
   },
   {
-    "revision": "d46876b3cb3056bc23bf",
-    "url": "/daily-tools/static/css/main.626119c8.chunk.css"
+    "revision": "053a8939800edd969c84",
+    "url": "/daily-tools/static/css/main.2df4f34b.chunk.css"
   },
   {
     "revision": "40583d5e461fb5b65137",
     "url": "/daily-tools/static/js/2.9c227008.chunk.js"
   },
   {
-    "revision": "d46876b3cb3056bc23bf",
-    "url": "/daily-tools/static/js/main.3c37b539.chunk.js"
+    "revision": "053a8939800edd969c84",
+    "url": "/daily-tools/static/js/main.41e5f3f0.chunk.js"
   },
   {
     "revision": "cc92e4eb130d8a3bf9f9",
     "url": "/daily-tools/static/js/runtime~main.60d1acc1.js"
+  },
+  {
+    "revision": "8495aaac3fb3ffa18871392ff244d26f",
+    "url": "/daily-tools/static/media/about.8495aaac.svg"
+  },
+  {
+    "revision": "31c5a3b13160c46c8a4e6c1345ab9664",
+    "url": "/daily-tools/static/media/calculator.31c5a3b1.svg"
+  },
+  {
+    "revision": "820d624d0dbdc24932a2aca13103a762",
+    "url": "/daily-tools/static/media/calendar.820d624d.svg"
+  },
+  {
+    "revision": "d2a3e5f537747458534c5188c2050abd",
+    "url": "/daily-tools/static/media/chronometer.d2a3e5f5.svg"
   },
   {
     "revision": "02b7b0304105b2ea85de5805dd7650cc",
